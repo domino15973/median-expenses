@@ -1,3 +1,5 @@
+from median_expenses import solution1, solution2
+
 expenses = {
     "2023-01": {
         "01": {
@@ -20,3 +22,6 @@ expenses = {
     },
     "2023-04": {}
 }
+
+print("Solution1 result:", solution1(expenses))
+print("Solution2 result:", solution2(expenses))
